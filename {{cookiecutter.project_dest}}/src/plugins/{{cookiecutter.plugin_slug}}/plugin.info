@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/{{ cookiecutter.author_username }}/{{ cookiecutter.plugin_slug }}",
+    "description": "{{ cookiecutter.plugin_description }}",
+    "author": "{{ cookiecutter.author_fullname }}",
+    "version": "0.0.1",
+    "core-version": ">=5.0.8",
+    "source": "{{ cookiecutter.plugin_source }}",
+    "plugin-type": "plugin",
+    "list": "readme license"
+}

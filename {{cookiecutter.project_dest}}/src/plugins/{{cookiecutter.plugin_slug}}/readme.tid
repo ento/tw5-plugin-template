@@ -1,0 +1,14 @@
+title: $:/plugins/{{ cookiecutter.author_username }}/{{ cookiecutter.plugin_slug }}/readme
+type: text/vnd.tiddlywiki
+
+! {{ cookiecutter.plugin_name }}
+
+{{ cookiecutter.plugin_description }}
+
+!! Usage
+
+!! Installation
+
+To add the plugin to your own ~TiddlyWiki5, drag this link to the browser window:
+
+$:/plugins/{{ cookiecutter.author_username }}/{{ cookiecutter.plugin_slug }}

@@ -1,0 +1,22 @@
+git_remote_type: scaraplate.gitremotes.GitHub
+
+cookiecutter_context_type: scaraplate.cookiecutter.ScaraplateConf
+
+default_strategy: scaraplate.strategies.Overwrite
+strategies_mapping:
+  .gitignore: scaraplate.strategies.SortedUniqueLines
+
+  plugin.dhall:
+    strategy: scaraplate.strategies.TemplateHash
+    config:
+      line_comment_start: '#'
+      max_line_length: 87
+  shell.nix:
+    strategy: scaraplate.strategies.TemplateHash
+    config:
+      line_comment_start: '#'
+      max_line_length: 87
+
+  src/plugins/*/readme.tid: scaraplate.strategies.IfMissing
+  src/tiddlers/*: scaraplate.strategies.IfMissing
+  test/tiddlers/*: scaraplate.strategies.IfMissing

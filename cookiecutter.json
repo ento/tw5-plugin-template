@@ -1,0 +1,10 @@
+{
+  "project_dest": null,
+  "plugin_slug": null,
+  "plugin_name": null,
+  "plugin_description": null,
+  "plugin_source": null,
+  "author_username": null,
+  "author_fullname": null,
+  "license": ["MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "GNU-3.0-or-later"]
+}
