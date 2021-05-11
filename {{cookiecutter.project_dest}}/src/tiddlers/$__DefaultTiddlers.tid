@@ -3,4 +3,4 @@ modified: 20190925072552908
 title: $:/DefaultTiddlers
 type: text/vnd.tiddlywiki
 
-$:/plugins/{{ cookiecutter.author_username }}/{{ cookiecutter.plugin_name }}
+$:/plugins/{{ cookiecutter.author_username }}/{{ cookiecutter.plugin_slug }}
