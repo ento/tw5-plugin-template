@@ -9,7 +9,7 @@ strategies_mapping:
   plugin.dhall:
     strategy: scaraplate.strategies.TemplateHash
     config:
-      line_comment_start: '#'
+      line_comment_start: '--'
       max_line_length: 87
   shell.nix:
     strategy: scaraplate.strategies.TemplateHash
